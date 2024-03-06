@@ -333,9 +333,14 @@ ul {
 
 .collection a:hover {
   background-position: right center;
-  /* change the direction of the change here */
+  /*changethedirectionofthechangehere*/
   color: #fff;
+  transition: 0.5s;
   text-decoration: none;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
 
@@ -357,11 +362,13 @@ ul {
   padding: 20px;
   align-items: center;
 }
-.social-icons{
+
+.social-icons {
   text-align: center;
   margin-top: 20px;
 }
-.social-icons i{
+
+.social-icons i {
   margin-left: 10px;
 }
 
